@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小萌预报</title>
+    <link rel="stylesheet" href="./css/commonality.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="forecast">
+        <div class="nav">
+            <div class="navigation-nav"></div>
+            <div class="forecast-nav">
+                <div class="fl">
+                    <span class="fl icon"></span>
+                    <span class=" fl my-city"></span>
+                </div>
+                <div class="fl search">
+                    <input class="fl inp-box" type="text" placeholder="输入所在城市" autocomplete="off">
+                    <span class="fl search-icon"></span>
+                </div>
+            </div>
+        </div>
+        <div class="forecast-box">
+            <div class="forecas-happy">
+                <div class="clearfix">
+                    <span class="fl date"></span>
+                    <span class="fr week"></span>
+                </div>
+                <div class="concert-box  clearfix">
+                    <span class="fl tem"></span>
+                    <div class="fl forecast-feng">
+                        <div class="forecast-feng-text clearfix">
+                            <span class="fl wea"></span>
+                            <span class="fl air_level"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="forecast-jing clearfix">
+                    <span class="fl jing win"></span>
+                    <span class="fl jing win_speed"></span>
+                    <span class="fl win_meter"></span>
+                </div>
+            </div>
+            <div class="hora-box">
+                <div class="hora-box-title">24小时天气</div>
+                <div class="hora-forecast">
+                    <ul id="horaForecast" class="clearfix">
+                    <!-- <li>
+                    <div class="hours">09时</div>
+                    <div class="hora-forecast-icon"></div>
+                    <div class="tem">22℃</div>
+                    <div class="win">无行风</div>
+                    </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="tail-forecast">
+                <div class="tail-forecast-title hora-box-title">未来六天天气预报</div>
+                <div class="tail-forecast-box">
+                    <ul class="tailForecast">
+                        <!-- <li>
+                            <span class="day">a</span>
+                            <span class="tail-forecast-icon" >图标</span>
+                            <div class="tem2" ></div>
+                            <span class="f-dir"></span>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/rem.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
